@@ -4,7 +4,7 @@ class QuizeView {
     #currentQuestion = null;
     #totalQuestion = null;
     #progress = null;
-    #maxLimit = 200;
+    #maxLimit = 10;
     currentLimit = 0
     callBack = null;
     interval = null;

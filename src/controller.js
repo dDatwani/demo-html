@@ -47,6 +47,10 @@ document.addEventListener('click', (e) => {
         store.currentQuize = store.topicBasedQuize[store.topic].question.length -1;
         loadNextQuize();
     }
+    if(e.target.matches('#info')) {
+        document.querySelector('.quize-rule').style.display = 'block';        
+
+    }
     
 });
 
